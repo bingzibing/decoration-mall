@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/decoration-mall/decoration-mall.iml" filepath="$PROJECT_DIR$/decoration-mall/decoration-mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/decoration-mall/decoration-mall-common/decoration-mall-common.iml" filepath="$PROJECT_DIR$/decoration-mall/decoration-mall-common/decoration-mall-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/decoration-mall/decoration-mall-web/decoration-mall-web.iml" filepath="$PROJECT_DIR$/decoration-mall/decoration-mall-web/decoration-mall-web.iml" />
+    </modules>
+  </component>
+</project>
