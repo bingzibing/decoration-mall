@@ -1,2 +1,0 @@
-
-    -Dspring.profiles.active=dev

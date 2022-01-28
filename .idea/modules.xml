@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/decoration-mall/decoration-mall.iml" filepath="$PROJECT_DIR$/decoration-mall/decoration-mall.iml" />
-      <module fileurl="file://$PROJECT_DIR$/decoration-mall/decoration-mall-common/decoration-mall-common.iml" filepath="$PROJECT_DIR$/decoration-mall/decoration-mall-common/decoration-mall-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/decoration-mall/decoration-mall-web/decoration-mall-web.iml" filepath="$PROJECT_DIR$/decoration-mall/decoration-mall-web/decoration-mall-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/decoration-mall.iml" filepath="$PROJECT_DIR$/decoration-mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/decoration-mall-common/decoration-mall-common.iml" filepath="$PROJECT_DIR$/decoration-mall-common/decoration-mall-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/decoration-mall-dao/decoration-mall-dao.iml" filepath="$PROJECT_DIR$/decoration-mall-dao/decoration-mall-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/decoration-mall-service/decoration-mall-service.iml" filepath="$PROJECT_DIR$/decoration-mall-service/decoration-mall-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/decoration-mall-web/decoration-mall-web.iml" filepath="$PROJECT_DIR$/decoration-mall-web/decoration-mall-web.iml" />
     </modules>
   </component>
 </project>

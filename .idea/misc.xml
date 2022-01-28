@@ -7,7 +7,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/decoration-mall/pom.xml" />
-        <option value="$PROJECT_DIR$/decoration-mall-web/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -8,18 +8,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="decoration-mall-common" />
+        <module name="decoration-mall-service" />
         <module name="decoration-mall-web" />
+        <module name="decoration-mall-dao" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="decoration-mall" target="1.8" />
       <module name="decoration-mall-common" target="1.8" />
+      <module name="decoration-mall-dao" target="1.8" />
+      <module name="decoration-mall-service" target="1.8" />
       <module name="decoration-mall-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="decoration-mall-common" options="-parameters" />
+      <module name="decoration-mall-dao" options="-parameters" />
+      <module name="decoration-mall-service" options="-parameters" />
       <module name="decoration-mall-web" options="-parameters" />
     </option>
   </component>
