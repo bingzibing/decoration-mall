@@ -52,6 +52,15 @@
         </if>
     </select>
 
+    <select id="selectCountByAnyKey" resultType="long">
+        select
+        count(1)
+        from ota_app_auth
+        <where>
+            <include refid="condition"/>
+        </where>
+    </select>
+
     <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
         update ota_app_auth
         set deleted = 1
