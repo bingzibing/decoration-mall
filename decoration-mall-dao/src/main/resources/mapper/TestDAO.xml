@@ -15,12 +15,43 @@
         id
         , client_name, device_id, app_id, app_key, create_time, update_time, deleted
     </sql>
+
+    <sql id="condition">
+        deleted = #{deleted,jdbcType=TINYINT}
+        <if test="deviceIds != null and deviceIds.size() != 0">
+            and device_id in
+            <foreach collection="deviceIds" separator="," close=")" open="(" index="index" item="id">
+                #{id}
+            </foreach>
+        </if>
+        <if test="appId != null">
+            AND `app_id` = #{appId,jdbcType=VARCHAR}
+        </if>
+        <if test="appKey != null">
+            AND `app_key` = #{appKey,jdbcType=VARCHAR}
+        </if>
+    </sql>
+
     <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
         select
         <include refid="Base_Column_List"/>
         from ota_app_auth
         where id = #{id,jdbcType=BIGINT}
     </select>
+
+    <select id="selectByAnyKey" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from ota_app_auth
+        <where>
+            <include refid="condition"/>
+        </where>
+        order by `update_time` desc
+        <if test="offset!=null and pageSize!=null and page==true">
+            limit #{offset}, #{pageSize}
+        </if>
+    </select>
+
     <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
         update ota_app_auth
         set deleted = 1
