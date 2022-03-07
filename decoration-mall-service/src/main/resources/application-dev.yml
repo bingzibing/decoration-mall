@@ -7,3 +7,5 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     hikari:
       max-lifetime: 300000
+cron:
+  updateTestStatTask: "0 0/5 * * * ?"
