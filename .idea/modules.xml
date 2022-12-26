@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/decoration-mall.iml" filepath="$PROJECT_DIR$/decoration-mall.iml" />
       <module fileurl="file://$PROJECT_DIR$/decoration-mall-common/decoration-mall-common.iml" filepath="$PROJECT_DIR$/decoration-mall-common/decoration-mall-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/decoration-mall-dao/decoration-mall-dao.iml" filepath="$PROJECT_DIR$/decoration-mall-dao/decoration-mall-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/decoration-mall-sdk/decoration-mall-sdk.iml" filepath="$PROJECT_DIR$/decoration-mall-sdk/decoration-mall-sdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/decoration-mall-service/decoration-mall-service.iml" filepath="$PROJECT_DIR$/decoration-mall-service/decoration-mall-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/decoration-mall-web/decoration-mall-web.iml" filepath="$PROJECT_DIR$/decoration-mall-web/decoration-mall-web.iml" />
     </modules>

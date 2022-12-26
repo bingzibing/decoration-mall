@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/decoration-mall-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/decoration-mall-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/decoration-mall-sdk/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/decoration-mall-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/decoration-mall-web/src/main/java" charset="UTF-8" />
   </component>

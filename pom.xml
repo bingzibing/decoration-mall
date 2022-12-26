@@ -22,6 +22,7 @@
         <module>decoration-mall-web</module>
         <module>decoration-mall-dao</module>
         <module>decoration-mall-service</module>
+        <module>decoration-mall-sdk</module>
     </modules>
 
 
