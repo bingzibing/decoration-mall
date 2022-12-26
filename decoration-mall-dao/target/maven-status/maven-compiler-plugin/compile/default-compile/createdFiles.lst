@@ -1,0 +1,5 @@
+com\mydecoration\decorationmall\dao\entity\TestDO.class
+com\mydecoration\decorationmall\dao\mapper\TestDAO.class
+com\mydecoration\decorationmall\dao\DecorationMallDaoApplication.class
+com\mydecoration\decorationmall\dao\mapper\MyBatisBaseDao.class
+com\mydecoration\decorationmall\dao\common\Query.class

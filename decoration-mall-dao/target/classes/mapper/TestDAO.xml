@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.mydecoration.decorationmall.dao.mapper.TestDAO">
+    <resultMap id="BaseResultMap" type="com.mydecoration.decorationmall.dao.entity.TestDO">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="client_name" jdbcType="VARCHAR" property="clientName"/>
+        <result column="device_id" jdbcType="BIGINT" property="deviceId"/>
+        <result column="app_id" jdbcType="VARCHAR" property="appId"/>
+        <result column="app_key" jdbcType="VARCHAR" property="appKey"/>
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime"/>
+        <result column="deleted" jdbcType="TINYINT" property="deleted"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        id
+        , client_name, device_id, app_id, app_key, create_time, update_time, deleted
+    </sql>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from ota_app_auth
+        where id = #{id,jdbcType=BIGINT}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+        update ota_app_auth
+        set deleted = 1
+        where id = #{id,jdbcType=BIGINT}
+    </delete>
+    <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.mydecoration.decorationmall.dao.entity.TestDO"
+            useGeneratedKeys="true">
+        insert into ota_app_auth (client_name, device_id, app_id,
+                                  app_key, create_time, update_time, deleted)
+        values (#{clientName,jdbcType=VARCHAR}, #{deviceId,jdbcType=BIGINT}, #{appId,jdbcType=VARCHAR},
+                #{appKey,jdbcType=VARCHAR}, now(), now(), 0)
+    </insert>
+    <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.mydecoration.decorationmall.dao.entity.TestDO"
+            useGeneratedKeys="true">
+        insert into ota_app_auth
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="clientName != null">
+                client_name,
+            </if>
+            <if test="deviceId != null">
+                device_id,
+            </if>
+            <if test="appId != null">
+                app_id,
+            </if>
+            <if test="appKey != null">
+                app_key,
+            </if>
+            <if test="createTime != null">
+                create_time,
+            </if>
+            <if test="updateTime != null">
+                update_time,
+            </if>
+            <if test="deleted != null">
+                deleted,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="clientName != null">
+                #{clientName,jdbcType=VARCHAR},
+            </if>
+            <if test="deviceId != null">
+                #{deviceId,jdbcType=BIGINT},
+            </if>
+            <if test="appId != null">
+                #{appId,jdbcType=VARCHAR},
+            </if>
+            <if test="appKey != null">
+                #{appKey,jdbcType=VARCHAR},
+            </if>
+            <if test="createTime != null">
+                #{createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateTime != null">
+                #{updateTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="deleted != null">
+                #{deleted,jdbcType=TINYINT},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.mydecoration.decorationmall.dao.entity.TestDO">
+        update ota_app_auth
+        <set>
+            <if test="clientName != null">
+                client_name = #{clientName,jdbcType=VARCHAR},
+            </if>
+            <if test="deviceId != null">
+                device_id = #{deviceId,jdbcType=BIGINT},
+            </if>
+            <if test="appId != null">
+                app_id = #{appId,jdbcType=VARCHAR},
+            </if>
+            <if test="appKey != null">
+                app_key = #{appKey,jdbcType=VARCHAR},
+            </if>
+            <if test="deleted != null">
+                deleted = #{deleted,jdbcType=TINYINT},
+            </if>
+        </set>
+        update_time = now()
+        where id = #{id,jdbcType=BIGINT}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.mydecoration.decorationmall.dao.entity.TestDO">
+        update ota_app_auth
+        set client_name = #{clientName,jdbcType=VARCHAR},
+            device_id   = #{deviceId,jdbcType=BIGINT},
+            app_id      = #{appId,jdbcType=VARCHAR},
+            app_key     = #{appKey,jdbcType=VARCHAR},
+            update_time = now()
+        where id = #{id,jdbcType=BIGINT}
+    </update>
+    <select id="selectByAppId" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from ota_app_auth
+        where app_id = #{appId,jdbcType=VARCHAR}
+    </select>
+</mapper>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bddd03ee-0942-40e9-b60b-4b2ab0ecb497" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven_repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.8.1-bin/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.1-bin\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="24GxsrotKXzHelG8GG02BMKeb2o" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\decoration-mall\decoration-mall-web\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DecorationMallWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="decoration-mall-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mydecoration.decorationmall.web.DecorationMallWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bddd03ee-0942-40e9-b60b-4b2ab0ecb497" name="Default Changelist" comment="" />
+      <created>1643270934541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643270934541</updated>
+      <workItem from="1643270936428" duration="1505000" />
+      <workItem from="1643273274868" duration="196000" />
+      <workItem from="1643273518506" duration="4000" />
+      <workItem from="1643273628048" duration="20000" />
+      <workItem from="1643275707663" duration="1639000" />
+      <workItem from="1643334276138" duration="187000" />
+      <workItem from="1643336935240" duration="12253000" />
+      <workItem from="1644198183383" duration="2146000" />
+      <workItem from="1644213471935" duration="6423000" />
+      <workItem from="1644483945860" duration="593000" />
+      <workItem from="1644487162787" duration="1191000" />
+      <workItem from="1644492947958" duration="918000" />
+      <workItem from="1644544166409" duration="1214000" />
+      <workItem from="1644894372109" duration="34000" />
+      <workItem from="1644991773736" duration="2393000" />
+      <workItem from="1646651441407" duration="715000" />
+      <workItem from="1657079170432" duration="704000" />
+      <workItem from="1658477473011" duration="1341000" />
+      <workItem from="1660404412389" duration="605000" />
+      <workItem from="1660527355426" duration="595000" />
+      <workItem from="1672036783608" duration="931000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="248" key="GridCell.Tab.0.bottom" timestamp="1672037417890">
+      <screen x="3456" y="0" width="1920" height="999" />
+    </state>
+    <state width="1877" height="248" key="GridCell.Tab.0.bottom/0.0.1382.824/3456.0.1920.999@3456.0.1920.999" timestamp="1672037417890" />
+    <state width="1877" height="248" key="GridCell.Tab.0.center" timestamp="1672037417890">
+      <screen x="3456" y="0" width="1920" height="999" />
+    </state>
+    <state width="1877" height="248" key="GridCell.Tab.0.center/0.0.1382.824/3456.0.1920.999@3456.0.1920.999" timestamp="1672037417890" />
+    <state width="1877" height="248" key="GridCell.Tab.0.left" timestamp="1672037417890">
+      <screen x="3456" y="0" width="1920" height="999" />
+    </state>
+    <state width="1877" height="248" key="GridCell.Tab.0.left/0.0.1382.824/3456.0.1920.999@3456.0.1920.999" timestamp="1672037417890" />
+    <state width="1877" height="248" key="GridCell.Tab.0.right" timestamp="1672037417890">
+      <screen x="3456" y="0" width="1920" height="999" />
+    </state>
+    <state width="1877" height="248" key="GridCell.Tab.0.right/0.0.1382.824/3456.0.1920.999@3456.0.1920.999" timestamp="1672037417890" />
+    <state width="1877" height="248" key="GridCell.Tab.1.bottom" timestamp="1672037417891">
+      <screen x="3456" y="0" width="1920" height="999" />
+    </state>
+    <state width="1877" height="248" key="GridCell.Tab.1.bottom/0.0.1382.824/3456.0.1920.999@3456.0.1920.999" timestamp="1672037417891" />
+    <state width="1877" height="248" key="GridCell.Tab.1.center" timestamp="1672037417891">
+      <screen x="3456" y="0" width="1920" height="999" />
+    </state>
+    <state width="1877" height="248" key="GridCell.Tab.1.center/0.0.1382.824/3456.0.1920.999@3456.0.1920.999" timestamp="1672037417891" />
+    <state width="1877" height="248" key="GridCell.Tab.1.left" timestamp="1672037417891">
+      <screen x="3456" y="0" width="1920" height="999" />
+    </state>
+    <state width="1877" height="248" key="GridCell.Tab.1.left/0.0.1382.824/3456.0.1920.999@3456.0.1920.999" timestamp="1672037417891" />
+    <state width="1877" height="248" key="GridCell.Tab.1.right" timestamp="1672037417891">
+      <screen x="3456" y="0" width="1920" height="999" />
+    </state>
+    <state width="1877" height="248" key="GridCell.Tab.1.right/0.0.1382.824/3456.0.1920.999@3456.0.1920.999" timestamp="1672037417891" />
+    <state x="3790" y="160" key="new project wizard" timestamp="1672036962581">
+      <screen x="3456" y="0" width="1920" height="999" />
+    </state>
+    <state x="3790" y="160" key="new project wizard/0.0.1382.824/3456.0.1920.999@3456.0.1920.999" timestamp="1672036962581" />
+  </component>
+</project>

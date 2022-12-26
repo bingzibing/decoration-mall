@@ -1,0 +1,4 @@
+com\mydecoration\decorationmall\service\config\DataSourceConfig.class
+com\mydecoration\decorationmall\service\manager\TestManager.class
+com\mydecoration\decorationmall\service\schedule\JobHub.class
+com\mydecoration\decorationmall\service\manager\impl\TestManagerImpl.class
